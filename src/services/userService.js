@@ -8,6 +8,4 @@ function emailExiste(email, database = userDB) {
     return database.usuarios.findIndex(user => user.email === email) !== -1
 }
 
-
-
 module.exports = { usuarioExiste, emailExiste }
