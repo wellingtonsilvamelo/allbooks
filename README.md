@@ -23,7 +23,6 @@ POST http://localhost:8000/public/registrar
 
 Com os seguintes dados:
 
-
 ```
 {
     "nome": "vinicios neves",
